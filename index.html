@@ -3,27 +3,39 @@
 <html>
    <head>
       <title>Cooking Blog</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+     
    </head>
 
    <body>
+        <div>
+            <ul>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+               <li><a href="#contact">Contact us</a></li> 
+            </ul>
+              </div>
        <header>
-            <h1 class="center">Liya's Cooking Blog</h1>
+            <h1 class="center">LIYA'S COOKING BLOG</h1>
        </header>
       
        <article>
-       <h2>About me</h2>
-       <p>I am a very passionate cook.I love to cook throughout my entire life.
-           I always cook with my soul,and put lots of love in each of my dish.Cooking gives me immense
-           pleasure and i enjoy each and every moment of it. 
+           <div>
+       <h2 id="about">ABOUT ME</h2>
+       <p>I am a very passionate cook. I love to cook throughout my entire life. 
+           I always cook with my soul,and put lots of love in each of my dish. Cooking gives me immense
+           pleasure and enjoy each and every moment of it. 
        </p>
-    
-       <h2>My Recipes</h2>
+    </div>
+    <div>
+       <h2 id="recipes">MY RECIPES</h2>
        <h3>CHICKEN BIRIYANI</h3>
+       <div>
        <figure>
-            <img src="img/biriyani.png" namespace="biriyani"/>
+            <img class= "effects" src="img/biriyani.png" namespace="biriyani"/>
             <figcaption>Chicken Biriyani</figcaption>
        </figure>
-       
+    </div>
        <p>Chicken Biryani is a bold and flavorful Indian dish with crazy tender bites of chicken 
            with bell peppers in a deliciously spiced and fragrant rice.</p>
         <p>Ingredients:
@@ -60,10 +72,12 @@
         Turn off the heat and let sit, covered, for five minutes before opening and serving.
        </p>
        <h3>TANDOORI CHICKEN</h3>
+       <div>
        <figure>
             <img src="img/tandoori.png" namespace="tandoori"/>
             <figcaption>Tandoori Chicken</figcaption>
        </figure>
+    </div>
        
        <p>
         Classic Tandoori Chicken is an Indian recipe that's marinated in yogurt, garam masala and cayenne before baking 
@@ -99,11 +113,12 @@
                 Preheat the oven to 400 degrees and cook on a sheet pan for 25-30 minutes.</br>
         </p>
         <h3>Tomato Broccoli Soup</h3>
+        <div>
         <figure>
             <img src="img/tomato.png" namespace="tomato"/>
             <figcaption>Tomato Brocolli Soup</figcaption>
         </figure>
-        
+       </div> 
         <p>
                 Ingredients:
                 <ol>
@@ -125,6 +140,13 @@
                 Strain the puree and transfer into the same saucepan and cook for around 5 minutes.</br>
                 Season with salt and pepper powder and serve hot.</br>
         </p>
+    </div>
+    <div>
+        <h2 class="font" id="contact">CONTACT US</h2>
+        <p>
+                <p>If you would like to get in touch with me, be it for sharing your recipes or comments, or to just say hi, feel free to contact me at <strong><a href = "mailto: liya.babu1@gmail.com">liya.babu1@gmail.com</a></strong></p>
+        </p>
+    </div>
         </article>
         <footer>&copy; Copyright 2019 Liya's Food Blog</footer>
    </body>
